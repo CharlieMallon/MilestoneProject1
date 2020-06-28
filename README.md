@@ -1,39 +1,49 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Rebecca Moris-Eyton
 
-Welcome CharlieMallon,
+This website aims to increase Rebecca's clients and therefore increase revenue.  I will allow existing and potential clients to find out more about Rebecca and to Book time with her.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+### User Stories;  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  *  As a customer, I want to find out more about Rebecca so that I can make an informed decision.  
+  *  As a customer, I want to find out costings so that I work out if I can afford this service.  
+  *  As a customer, I want to find out more about the service provided so that I can make an informed decision.  
+  *  As a customer, I want to book a session with Rebecca so that I can start using her services.  
+  *  As a customer, I want to find out about current offers so that I can get free stuff.  
 
-`python3 -m http.server`
+  -  As a owner, I want to show people I am credible so that they trust me.  
+  -  As a owner, I want to give clear information on my services so that my customer knows what they are getting.  
+  -  As a owner, I want to reach out to my customers so that they feel connected.  
+  -  As a owner, I want to share my thoughts and insights so that people continue to come to the site.  
 
-A blue button should appear to click: *Make Public*,
+### Competitor Reviews
 
-Another blue button should appear to click: *Open Browser*.
+[**Tish Hawkins**](https://www.tishhawken.com/)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+| **Pros**       | **Cons**            |
+| -------------  |:-------------------:|
+| Simple design  | Very Wordy          |
+| Consistent     | To much Content     |
+| Good branding  | not very up to date |
 
-A blue button should appear to click: *Make Public*,
+Its missing 
+-  A Hook, something that makes you want to stay.
 
-Another blue button should appear to click: *Open Browser*.
+It could do better 
+-  Responsive design. It looks more cluttered The smaller the screen.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+[**Michell Stonhill**](https://www.michellestonhill.com/) 
 
-## Updates Since The Instructional Video
+| **Pros**                      | **Cons**              |
+| ----------------------------  |:---------------------:|
+| Simple, Clean design          | Designed for desktops |
+| Easily digestible information | A lot of information  |
+| Lots of clickable links       |                       |
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Its missing 
+- Updates - there is no 'new' content
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+It could do better 
+- Doesn't work well on the phone, there is too much content.
+ 

@@ -1,18 +1,15 @@
 /* Header */
 
 #logo {
-    width: 200px;
-    height: 150px;
+    max-width: 200px;
 }
 
 /* Footer */
 
 .trust-tag-wide {
-    width: 160px;
-    height: 90px;
-}
+    max-width: 128px;
+   }
 
 .trust-tag-square {
-    height: 90px;
-    width: 90px;
-}
+    max-width: 72px;
+    }

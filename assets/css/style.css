@@ -6,6 +6,13 @@
 
 /* Footer */
 
+footer {
+    height: 150px;
+}
+
+
+/* Footer - Trust Tags */
+
 .trust-tag-wide {
     max-width: 128px;
    }
@@ -13,3 +20,36 @@
 .trust-tag-square {
     max-width: 72px;
     }
+
+.trust-tags {
+    text-align: center;
+    margin: 1%;
+    padding: 5%;
+}
+
+.trust-tags li {
+    display: inline-block;
+}
+
+/* ./ Footer - Trust Tags */
+
+/* Footer - Social Networks */
+
+.social-networks {
+    text-align: center;
+    margin: 1%;
+    padding: 5%;
+}
+
+.social-networks li {
+    display: inline-block;
+}
+
+.social-networks i {
+    font-size: 200%;
+    letter-spacing: 30px;
+    margin: 1%;
+    padding: 5%;
+    color: #75B9E6;
+}
+/* ./ Footer - Social Networks */

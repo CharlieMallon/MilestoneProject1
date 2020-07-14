@@ -17,6 +17,36 @@
         border-bottom: 1px solid #003B6C;
         }
 
+/* ./ Header */
+
+/* call out */
+
+.callout-container {
+    height: 100vh;
+
+    background-image: url(../assets/img/hero.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ./call out */
+
 /* Footer */
 
 .footer {

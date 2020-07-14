@@ -7,9 +7,34 @@
     max-height: 150px;
 }
 
-#logo {
-    height: 100%
-}
+    #logo {
+        height: 100%
+    }
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+        nav li {
+            margin-right: 30px;
+            list-style-type: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        nav a:hover {
+            border-bottom: 1px solid #777777;
+        }
+
+        .active{
+            border-bottom: 1px solid #777777;
+        }
 
 /* Footer */
 
@@ -47,7 +72,7 @@
 }
 
 .tags li {
-    
+    text-decoration: none;
 }
 
 /* ./ Footer - Trust Tags */

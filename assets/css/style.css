@@ -1,17 +1,38 @@
 /* Header */
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 150px;
+}
+
 #logo {
-    max-width: 200px;
+    height: 100%
 }
 
 /* Footer */
 
-footer {
-    height: 150px;
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+/* Footer - Contact */
+.contact {
+    padding: 5px;
+    width: 33%;
 }
 
+/*./ Footer - Contact */
 
 /* Footer - Trust Tags */
+
+.trust-tags {
+    padding: 5px;
+    width: 33%;
+}
 
 .trust-tag-wide {
     max-width: 128px;
@@ -23,12 +44,10 @@ footer {
 
 .trust-tags {
     text-align: center;
-    margin: 1%;
-    padding: 5%;
 }
 
-.trust-tags li {
-    display: inline-block;
+.tags li {
+    
 }
 
 /* ./ Footer - Trust Tags */
@@ -36,13 +55,8 @@ footer {
 /* Footer - Social Networks */
 
 .social-networks {
-    text-align: center;
-    margin: 1%;
-    padding: 5%;
-}
-
-.social-networks li {
-    display: inline-block;
+    padding: 5px;
+    width: 33%;
 }
 
 .social-networks i {

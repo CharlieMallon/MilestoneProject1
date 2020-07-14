@@ -140,14 +140,17 @@
     }
     .contact {
         order: 2;
+        width: 100%;
     }
 
     .trust-tags {
         order: 1;
+        width: 100%;
     }
 
     .social-networks {
         order: 3;
+        width: 100%;
     }
 /* ./ Footer */
     

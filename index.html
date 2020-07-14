@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/560ce606e6.js" crossorigin="anonymous"></script>
     <!--My style Sheet-->
@@ -11,33 +13,35 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <!--Title/logo-->
-            <div class="Logo-container">
-                <a href="index.html"><img src="assets/img/logo.jpg" alt="Rebecca Morris-Eyton Logo" id="logo"></a>
+        <div class="container-fluid">
+            <div class="row header">
+                <!--Title/logo-->
+                <div class="col-8 Logo-container">
+                    <a href="index.html"><img src="assets/img/logo.jpg" alt="Rebecca Morris-Eyton Logo" id="logo"></a>
+                </div>
+                <!--./ Title/logo-->
+                <!--Menu-->
+                <div class="col-4">
+                    <nav>
+                        <ul class="nav justify-content-end menu">
+                            <li class= "nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <!--./ Title/logo-->
-            <!--Menu-->
-            <div>
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a class= "active" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Cources</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+                <!--./ Menu-->
             </div>
-            <!--./ Menu-->
-        </div>
     </header>
     <section>
     

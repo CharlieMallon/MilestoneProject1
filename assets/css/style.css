@@ -1,8 +1,6 @@
 /* Header */
 
 .header {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -16,28 +14,16 @@
     }
 
 
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-        nav li {
-            margin-right: 30px;
-            list-style-type: none;
+    nav li {
+        margin-right: 30px;
         }
 
-        nav a {
-            text-decoration: none;
-            color: inherit;
+    nav a:hover {
+        border-bottom: 1px solid #003B6C;
         }
 
-        nav a:hover {
-            border-bottom: 1px solid #777777;
-        }
-
-        .active{
-            border-bottom: 1px solid #777777;
+    .active{
+        color: #003B6C;
         }
 
 /* Footer */

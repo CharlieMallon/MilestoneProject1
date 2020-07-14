@@ -4,9 +4,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-height: 150px;
 }
 
+    .Logo-container {
+        max-height: 150px;
+        max-width: 210px;
+    }
+    
     #logo {
         height: 100%
     }
@@ -89,7 +93,7 @@
     /* Footer - Social Networks */
 
     .social-networks {
-        padding: 0px;
+        padding: 5px;
         width: 33%;
     }
 
@@ -113,3 +117,40 @@
     }
     /* ./ Footer - Social Networks */
 /* footer */
+
+
+
+/*media queries*/
+
+/*tablet*/
+
+@media screen and (max-width: 1393px) {
+
+    
+}
+
+/*mobile*/
+
+@media screen and (max-width: 800px) {
+    
+/* Footer */
+
+    .footer {
+        flex-direction: column;
+    }
+    .contact {
+        order: 2;
+    }
+
+    .trust-tags {
+        order: 1;
+    }
+
+    .social-networks {
+        order: 3;
+    }
+/* ./ Footer */
+    
+}
+
+/*end media queries*/

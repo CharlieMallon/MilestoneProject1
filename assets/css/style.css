@@ -24,21 +24,24 @@
 .callout-container {
     height: 80vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
     position: relative;
+    padding-top: 60px;
+    padding-right: 60px;
 }
 
-#hero {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    overflow: hidden;
-}
+    #hero {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        object-fit: cover;
+        overflow: hidden;
+    }
 
     .callout {
         position: relative;

@@ -49,6 +49,15 @@
 
 /* ./call out */
 
+/* Main content */
+
+.main-box {
+    min-height: 200px;
+    padding: 15px;
+}
+
+/* Main content */
+
 /* Footer */
 
 .footer {

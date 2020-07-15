@@ -22,28 +22,28 @@
 /* call out */
 
 .callout-container {
-    height: 100vh;
-
-    background-image: url(../assets/img/hero.jpg) no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.opaque-overlay {
+#hero {
     position: absolute;
-    top: 0;
-    bottom: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    ob
+
+;overflow: hidden    ;revo
+
+    .callout {
+        position: relative;
+    }c    }
 
 /* ./call out */
 
@@ -52,6 +52,7 @@
 .footer {
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     }
 
     /* Footer - Contact */

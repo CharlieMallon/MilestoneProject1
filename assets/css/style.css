@@ -20,6 +20,18 @@
 
 /* ./ Buttons */
 
+/* block dividers */
+
+.block-divider {
+    background-color: #003B6C;
+}
+
+.block-divider-short {
+    width: 60px;
+}
+
+/* ./ block dividers */
+
 /* Header */
 
 .header {

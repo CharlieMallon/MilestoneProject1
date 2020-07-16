@@ -1,3 +1,25 @@
+/* Buttons */
+
+.btn-blue {
+    background-color: #1193ff;
+    border-color: #1193ff;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #FFC000;
+    border-color: #FFC000;
+    color: white;
+}
+
+.btn-orange {
+    background-color: #FF4C00;
+    border-color: #FF4C00;
+    color: white;
+}
+
+/* ./ Buttons */
+
 /* Header */
 
 .header {

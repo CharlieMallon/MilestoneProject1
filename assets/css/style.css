@@ -188,14 +188,26 @@
 /*tablet*/
 
 @media screen and (max-width: 1393px) {
-
+ 
     
 }
 
 /*mobile*/
 
 @media screen and (max-width: 800px) {
-    
+   
+/* Reveiws */
+
+#img-switch {
+    order: 2;
+}
+
+#text-switch {
+    order: 1;
+}
+
+/* ./ Reveiws */
+
 /* Footer */
 
     .footer {

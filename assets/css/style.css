@@ -89,6 +89,10 @@
     min-height: 200px;
     padding: 15px;
 }
+.main-box i {
+        font-size: 200%;
+        color: #75B9E6;
+    }
 
 /* Main content */
 

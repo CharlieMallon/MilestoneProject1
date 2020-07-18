@@ -27,7 +27,11 @@
 }
 
 .block-divider-short {
-    width: 60px;
+    width: 300px;
+}
+
+.block-divider-reponsive {
+    width: 80%;
 }
 
 /* ./ block dividers */
@@ -87,12 +91,25 @@
 
 .main-box {
     min-height: 200px;
+    margin: 5%;
     padding: 15px;
-}
+    border: 3px solid #003B6C;
+    border-radius: 15px;
+    box-shadow: 3px 5px #888888;
+    }
+
 .main-box i {
         font-size: 200%;
         color: #75B9E6;
     }
+
+.main-box p {
+    margin: 7% 0;
+}
+
+.main-box .btn {
+    margin-bottom: 5%;
+}
 
 /* Main content */
 

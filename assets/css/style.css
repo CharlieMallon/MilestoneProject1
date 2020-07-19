@@ -125,6 +125,61 @@
 
 /* ./ Reveiws */
 
+/* courses */
+
+.course-discription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 550px;
+    margin: 5%;
+}
+
+.course-img {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.course-words {
+    margin-left: 1%;
+    padding: 15px;
+}
+
+.course-words p {
+    margin: 0px;
+}
+
+.course .media i {
+    letter-spacing: 15px;
+}
+
+#price-dis {
+    margin-left: 5%;
+}
+
+.course-content {
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.course-price {
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.course-price .row {
+    justify-content: flex-end;
+}
+
+.course-questions {
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+/* ./ courses */
+
 /* Footer */
 
 .footer {

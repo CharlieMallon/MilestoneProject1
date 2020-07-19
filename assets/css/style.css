@@ -111,7 +111,19 @@
     margin-bottom: 5%;
 }
 
-/* Main content */
+/* ./ Main content */
+
+/* Reveiws */
+
+.media {
+    margin: 2%;
+}
+
+.rnd-img {
+    align-self: center;
+}
+
+/* ./ Reveiws */
 
 /* Footer */
 
@@ -159,6 +171,10 @@
 
     /* Footer - Social Networks */
 
+    .social-networks {
+        padding: 15px;
+    }
+
     .social-links{
         display: flex;
         flex-direction: row;
@@ -169,7 +185,7 @@
 
     .social-links i {
         font-size: 200%;
-        letter-spacing: 30px;
+        letter-spacing: 40px;
         margin: 1%;
         padding: 5%;
         color: #75B9E6;
@@ -185,17 +201,26 @@
 
 /*media queries*/
 
-/*tablet*/
+/*tablet - md */
 
-@media screen and (max-width: 1393px) {
+@media screen and (max-width: 786px) {
  
     
 }
 
-/*mobile*/
+/*mobile - sm */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 576px) {
    
+/* call out */
+
+.callout-container {
+    align-items: center;
+    justify-content: center;
+}
+
+/* ./call out */
+
 /* Reveiws */
 
 #img-switch {

@@ -4,6 +4,10 @@
     width: 80vw;
 }
 
+.wide {
+    width: 100vw;
+}
+
 /* ./ containers */
 
 /* Buttons */
@@ -162,6 +166,11 @@
         }
 
     /* ./ Course Title*/
+    /* Course details */
+    
+    
+
+    /* ./ Course Details*/
     /*Course Content*/
 
         .course-content {

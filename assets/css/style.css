@@ -1,3 +1,11 @@
+/* containers */
+
+.container-fluid {
+    width: 80vw;
+}
+
+/* ./ containers */
+
 /* Buttons */
 
 .btn-blue {
@@ -127,56 +135,74 @@
 
 /* courses */
 
-.course-discription {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 550px;
-    margin: 5%;
-}
+    /*Course Title*/
 
-.course-img {
-    width: 400px;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
+        .course-discription {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 550px;
+            margin: 5%;
+        }
 
-.course-words {
-    margin-left: 1%;
-    padding: 15px;
-}
+        .course-img {
+            width: 400px;
+            height: 100%;
+            object-fit: cover;
+            overflow: hidden;
+        }
 
-.course-words p {
-    margin: 0px;
-}
+        .course-words {
+            margin-left: 1%;
+            padding: 15px;
+        }
 
-.course .media i {
-    letter-spacing: 15px;
-}
+        .course-words p {
+            margin: 0px;
+        }
 
-#price-dis {
-    margin-left: 5%;
-}
+    /* ./ Course Title*/
+    /*Course Content*/
 
-.course-content {
-    margin-left: 2%;
-    margin-bottom: 5%;
-}
+        .course-content {
+            margin-left: 2%;
+            margin-bottom: 5%;
+        }
 
-.course-price {
-    margin-left: 2%;
-    margin-bottom: 5%;
-}
+        .media-body p {
+            margin: 8px 0px;
+        }
 
-.course-price .row {
-    justify-content: flex-end;
-}
+        .media i {
+            letter-spacing: 15px;
+            font-size: 200%;
+        }
 
-.course-questions {
-    margin-left: 2%;
-    margin-bottom: 5%;
-}
+    /* ./ Course Content*/
+    /*price*/
+
+        #price-dis {
+            margin-left: 5%;
+        }
+
+        .course-price {
+            margin-left: 2%;
+            margin-bottom: 5%;
+        }
+
+        .course-price .row {
+            justify-content: flex-end;
+        }
+
+    /* ./ price*/
+    /*Questions*/
+
+        .course-questions {
+            margin-left: 2%;
+            margin-bottom: 5%;
+        }
+
+    /*./Questions*/
 
 /* ./ courses */
 

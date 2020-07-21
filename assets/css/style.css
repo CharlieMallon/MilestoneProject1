@@ -168,15 +168,16 @@
     /* ./ Course Title*/
     /* Course details */
     
-    
+    .empthasis-box {
+        margin: 0%;
+        padding: 0px;
+        border: 3px solid #003B6C;
+        border-radius: 15px;
+        box-shadow: 3px 5px #888888;
+    }
 
     /* ./ Course Details*/
     /*Course Content*/
-
-        .course-content {
-            margin-left: 2%;
-            margin-bottom: 5%;
-        }
 
         .media-body p {
             margin: 8px 0px;
@@ -195,20 +196,18 @@
         }
 
         .course-price {
-            margin-left: 2%;
-            margin-bottom: 5%;
+            margin-top: 10%;
         }
 
-        .course-price .row {
-            justify-content: flex-end;
+        .price {
+            margin: 0px 5% 5% 5%;
         }
 
     /* ./ price*/
     /*Questions*/
 
         .course-questions {
-            margin-left: 2%;
-            margin-bottom: 5%;
+            margin-top: 10%;
         }
 
     /*./Questions*/

@@ -7,6 +7,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    margin: 0px
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
 
 /* containers */
 
@@ -155,7 +166,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin: 5%;
+            margin: 2%;
             height: 70vh;
         }
 
@@ -179,7 +190,7 @@ body {
     
     .empthasis-box {
         margin: 0%;
-        padding: 0px;
+        padding: 10px;
         border: 3px solid #003B6C;
         border-radius: 15px;
         box-shadow: 3px 5px #888888;
@@ -226,10 +237,24 @@ body {
 /* About Me */
 
 .background {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    height: 70vh;
 }
 
+.about-img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
 
+.slogan {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
 /* ./ About Me */
 

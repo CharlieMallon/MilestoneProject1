@@ -71,22 +71,18 @@ h3 {
 
 /* Header */
 
-.header {
-    justify-content: space-between;
+#logo {
+    width: 200px;
+    height: 46.75px;
 }
-  
-    #logo {
-        width: 200px;
-        height: 46.75px;
-    }
 
-    nav li {
-        margin-right: 30px;
-        }
+nav li {
+   margin-right: 30px;
+}
 
-    nav li a:hover {
-        border-bottom: 1px solid #003B6C;
-        }
+nav li a:hover {
+    border-bottom: 1px solid #003B6C;
+}
 
 /* ./ Header */
 

@@ -37,23 +37,23 @@ h3 {
     background-color: #1193ff;
     border-color: #1193ff;
     color: white;
+    margin-top: 20px;
 }
 
 .btn-yellow {
     background-color: #FFC000;
     border-color: #FFC000;
     color: white;
+    margin-top: 20px;
 }
 
 .btn-orange {
     background-color: #FF4C00;
     border-color: #FF4C00;
     color: white;
-}
-
-.btn-callout {
     margin-top: 20px;
 }
+
 
 /* ./ Buttons */
 
@@ -262,6 +262,29 @@ nav li a:hover {
 
 /* ./ About Me */
 
+/* contact */
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+/* ./ contact */
+
 /* Footer */
 
 .footer {
@@ -342,15 +365,24 @@ nav li a:hover {
 
 @media screen and (max-width: 786px) {
 
-/* containers */
+    /* containers */
 
-.container-fluid {
-    width: 100vw;
-}
+    .container-fluid {
+        width: 100vw;
+    }
 
-/* ./ containers */
+    /* ./ containers */
 
-    
+    /* ./ contact */
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    /* ./ contact */
 }
 
 /*mobile - sm */

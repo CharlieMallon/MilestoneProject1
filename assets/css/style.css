@@ -337,7 +337,15 @@ nav li a:hover {
 /*tablet - md */
 
 @media screen and (max-width: 786px) {
- 
+
+/* containers */
+
+.container-fluid {
+    width: 100vw;
+}
+
+/* ./ containers */
+
     
 }
 

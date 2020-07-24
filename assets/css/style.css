@@ -69,6 +69,10 @@ h3 {
 
 /* ./ block dividers */
 
+.bg-light  {
+    background-color: #fff !important;
+}
+
 /* Header */
 
 #logo {

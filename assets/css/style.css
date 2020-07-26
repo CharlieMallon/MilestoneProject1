@@ -264,6 +264,12 @@ nav li a:hover {
 
 /* contact */
 
+.contact-img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 .contact-form {
     margin-bottom: 30px;
 }

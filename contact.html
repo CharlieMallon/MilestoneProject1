@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--JS Bootsrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/560ce606e6.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <!--My style Sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rebecca Morris-Eyton</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-        <!--Title/logo-->
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Title/logo-->
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo-header.jpg" alt="Rebecca Morris-Eyton Logo" id="logo">
+                <img src="assets/img/logo-header.jpg" alt="Rebecca Morris-Eyton Logo" id="logo">            
             </a>
-        <!--./ Title/logo-->
-        <!-- Burger Button -->
+            <!--./ Title/logo-->
+            <!--Toggler-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-        <!-- Burger Button -->
-        <!--Menu-->
+            <!--./ Toggler-->
+            <!--Menu-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -37,18 +44,40 @@
                         <a class="nav-link" href="courses.html">Courses</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
-        <!--./ Menu-->
         </nav>
+        <!--./ Nav Bar-->
     </header>
     <section>
-        <p>contact info and form</p>
+        <div class="container-fluid contact-form">
+            <div class="row">
+                <div class="col col-md-6 form">
+                    <h3 class="contact-heading text-center">Got a question?</h3>
+                    <h5 class="text-center">let's work together</h5>
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                            <input type="email" name="email" id="email" class="form-control" placeholder="name@company.co.uk" required />
+                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Text goes here" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-blue">Send Project Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-inline text-center">
+                    <img class="contact-img col-12"  src="assets/img/on-a-step.jpg" alt="rebecca morris-eyton">
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid wide">
             <div class="row footer">
                 <!--Footer Contact Infomation-->
                 <div class="col-12 col-md-4 contact">

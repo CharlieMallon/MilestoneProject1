@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--JS Bootsrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/560ce606e6.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <!--My style Sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rebecca Morris-Eyton</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light navbar-expand-lg">
-        <!--Title/logo-->
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Title/logo-->
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo-header.jpg" alt="Rebecca Morris-Eyton Logo" id="logo">
+                <img src="assets/img/logo-header.jpg" alt="Rebecca Morris-Eyton Logo" id="logo">            
             </a>
-        <!--./ Title/logo-->
-        <!-- Burger Button -->
+            <!--./ Title/logo-->
+            <!--Toggler-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-        <!-- Burger Button -->
-        <!--Menu-->
+            <!--./ Toggler-->
+            <!--Menu-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -41,21 +48,21 @@
                     </li>
                 </ul>
             </div>
-        <!--./ Menu-->
         </nav>
+        <!--./ Nav Bar-->
     </header>
     <section>
     <!--callout-->
     <div class="container-fluid callout-container">
         <img id="hero" src="assets/img/hero.jpg" alt="hero image">
-        <!-- <div class="opaque-overlay">&NonBreakingSpace;</div> - to darken image if needed -->
+        <div class="opaque-overlay">&NonBreakingSpace;</div>
         <div class="Row callout">
             <div class="col-12">
                 <section class="callout text-center">
                     <h1>Remove your road blocks</h1>
                     <hr class="block-divider"> 
                     <p>Feel serene and unstoppable after a <strong><mark>Free Sucess Session</mark></strong></p>
-                    <button class="btn btn-lg btn-yellow" data-toggle="modal" data-target="">Book yours today</button>
+                    <button class="btn btn-lg btn-yellow btn-callout" data-toggle="modal" data-target="">Book yours today</button>
                 </section>
             </div>
         </div>
@@ -71,7 +78,7 @@
                     <h2>About Me</h2>
                     <hr class="block-divider .block-divider-reponsive"> 
                     <p>A short discription about rebecca goes here. something that makes you want to find out more and is about this long</p>
-                    <button class="btn btn-primary btn-sm btn-blue" data-toggle="button" aria-pressed="false" data-target="about.html">Find out more</button>
+                    <a class="btn btn-primary btn-sm btn-blue" href="about.html">Find out more</a>
                 </div>
             </div>
             <!--./ About me-->
@@ -82,7 +89,7 @@
                     <h2>Courses</h2>
                     <hr class="block-divider .block-divider-reponsive"> 
                     <p>A short discription of the courses rebecca offers goes here. something that makes you want to find out more</p>
-                    <button class="btn btn-primary btn-sm btn-blue" data-toggle="button" aria-pressed="false" data-target="courses.html">Find out more</button>
+                    <a class="btn btn-primary btn-sm btn-blue" href="courses.html">Find out more</a>
                 </div>
             </div>
             <!--./ Courses-->
@@ -93,7 +100,7 @@
                     <h2>Get In Touch</h2>
                     <hr class="block-divider .block-divider-reponsive"> 
                     <p>Why should i get in touch geos here goes here. something that makes you want to find out more and is about this long</p>
-                    <button class="btn btn-primary btn-sm btn-blue" data-toggle="button" aria-pressed="false" data-target="contact.html">Find out more</button>
+                    <a class="btn btn-primary btn-sm btn-blue" href="contact.html">Find out more</a>
                 </div>
             </div>
             <!--./ Get in touch-->
@@ -154,7 +161,7 @@
     </section>
     <footer>
     <!--Footer-->
-        <div class="container-fluid">
+        <div class="container-fluid wide">
             <div class="row footer">
                 <!--Footer Contact Infomation-->
                 <div class="col-12 col-md-4 contact">

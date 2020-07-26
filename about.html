@@ -5,33 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--JS Bootsrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/560ce606e6.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <!--My style Sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rebecca Morris-Eyton</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-        <!--Title/logo-->
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Title/logo-->
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo-header.jpg" alt="Rebecca Morris-Eyton Logo" id="logo">
+                <img src="assets/img/logo-header.jpg" alt="Rebecca Morris-Eyton Logo" id="logo">            
             </a>
-        <!--./ Title/logo-->
-        <!-- Burger Button -->
+            <!--./ Title/logo-->
+            <!--Toggler-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-        <!-- Burger Button -->
-        <!--Menu-->
+            <!--./ Toggler-->
+            <!--Menu-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="courses.html">Courses</a>
@@ -41,27 +48,28 @@
                     </li>
                 </ul>
             </div>
-        <!--./ Menu-->
         </nav>
+        <!--./ Nav Bar-->
     </header>
     <section>
         <!--Background-->
         <div class="container-fluid">
-            <h2 class="text-center">About Me</h2>
             <div class="row background">
                 <img class="about-img col-12 col-sm-6"  src="assets/img/on-a-bench.jpg" alt="rebecca morris-eyton">
                 <div class="about-words col-12 col-sm-6">
+                    <h2 class="text-center">About Me</h2>
                     <p> Originating from and predominantly living and working in the beautiful Lake District, UK. However, I have been lucky enough for my work to take me all over the world, sometimes for months at a time. 
                         Growing up watching my parents run multiple businesses instilled a strong work ethic and drive to succeed from a young age. This carried through into my work life. I really enjoy work so much so I kept taking on more – for a whole year I had 6 different jobs! 
-                        When I found myself working every hour available in a career I enjoyed, With responsibility came the expectations, harder to switch off, loss of confidence and eventually anxiety.  Days off used to terrify me – what do people do with them? This started to seep into my work and removed all the enjoyment and no time to see friends, family and just have a life! From the outside I was still successful, I just no longer felt it. 
-                        Then, It all came crashing down around me. I realised I had to change some things.
-                        Consequently I developed boundaries, confidence, stamina and a healthier, stronger mindset to rediscover the joy in life without compromising my work. I achieve everything in work that I want to plus have time for the people and activities that make me happy. I have learnt that all of this can be achieved as well as letting your body rest and recover. 
                     </p>
                 </div>
-                <p class="col-12 text-center"><em> My mission is Helping High Achieving Professionals to find self confidence, balance and happiness throughout their lives, whilst still achieving everything they want to in their successful career and life. You CAN have success in both.</em></p>
             </div>
         </div>
         <!--./ Background-->
+        <div class="row slogan">
+                <div class="col-8 empthasis-box text-center">
+                    <p><em> My mission is Helping High Achieving Professionals to find self confidence, balance and happiness throughout their lives, whilst still achieving everything they want to in their successful career and life. You CAN have success in both.</em></p>
+                </div>
+        </div>
         <!--Transformation-->
         <div class="container-fluid">
         <div class="row ">
@@ -188,7 +196,7 @@
         <!--./ Work Together-->
     </section>
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid wide">
             <div class="row footer">
                 <!--Footer Contact Infomation-->
                 <div class="col-12 col-md-4 contact">

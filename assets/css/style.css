@@ -280,6 +280,16 @@ nav li a:hover {
     height: 70vh;
 }
 
+.about-words {
+    padding-right: 40px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
             /* club ethos divs */
 
             #club-ethos {
@@ -364,11 +374,6 @@ nav li a:hover {
 
 
             /* end club ethos divs 2*/
-.slogan {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
 
 /* ./ About Me */
 

@@ -121,93 +121,100 @@ h3 {
 }
 
 /* ./ NavBar */
-/* Header */
+/* Home Page */
+    /* Header */
 
-#logo {
-    width: 200px;
-    height: 46.75px;
-}
-
-nav li {
-   margin-right: 30px;
-}
-
-nav li a:hover {
-    border-bottom: 1px solid #003B6C;
-}
-
-/* ./ Header */
-
-/* call out */
-
-.callout-container {
-    height: 80vh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: relative;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-
-    #hero {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        object-fit: cover;
-        overflow: hidden;
-        border-radius: 15px;
+    #logo {
+        width: 200px;
+        height: 46.75px;
     }
 
-    .callout {
+    nav li {
+    margin-right: 30px;
+    }
+
+    nav li a:hover {
+        border-bottom: 1px solid #003B6C;
+    }
+
+    /* ./ Header */
+
+    /* call out */
+
+    .callout-container {
+        height: 80vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
         position: relative;
-        color: #ffffff;
+        padding-top: 5%;
+        padding-right: 5%;
     }
 
-/* ./call out */
+        #hero {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
 
-/* Main content */
+        .callout {
+            position: relative;
+            color: #ffffff;
+        }
 
-.main-box {
-    min-height: 200px;
-    margin: 5%;
-    padding: 15px;
-    border: 3px solid #003B6C;
-    border-radius: 15px;
-    box-shadow: 3px 5px #888888;
+    /* ./call out */
+
+    /* Main content */
+
+    .main-box {
+        min-height: 200px;
+        margin: 5%;
+        padding: 15px;
+        border: 3px solid #003B6C;
+        border-radius: 15px;
+        box-shadow: 3px 5px #888888;
+        }
+
+    .main-box i {
+            font-size: 200%;
+            color: #75B9E6;
+        }
+
+    .main-box p {
+        margin: 7% 0;
     }
 
-.main-box i {
-        font-size: 200%;
-        color: #75B9E6;
+    .main-box .btn {
+        margin-bottom: 5%;
     }
 
-.main-box p {
-    margin: 7% 0;
-}
+    /* ./ Main content */
 
-.main-box .btn {
-    margin-bottom: 5%;
-}
+    /* Reveiws */
 
-/* ./ Main content */
+    .reveiws-header {
+        margin-top:20px;
+    }
 
-/* Reveiws */
+    .media {
+        margin: 2%;
+    }
 
-.media {
-    margin: 2%;
-}
+    .rnd-img {
+        align-self: center;
+    }
 
-.rnd-img {
-    align-self: center;
-}
+    /* ./ Reveiws */
 
-/* ./ Reveiws */
-
+/* ./ Home Page */
 /* courses */
 
     /*Course Title*/
@@ -445,6 +452,10 @@ form input {
         width: 100vw;
     }
 
+    .main-box {
+        min-height: 300px;
+    }
+
     /* ./ containers */
     /* Home page */
 
@@ -475,20 +486,55 @@ form input {
 /*bootstrap large*/ 
 @media screen and (max-width: 992px) {
 
+    /* Home page */
+
+    .main-box {
+        min-height: 310px;
+    }
+
+    .reveiws-container p {
+        font-size: 18px;
+    }
+
+    /* ./ Home page */
+    /* about */
+
+    /* ./ about */
+    /* cources */
+
+    /* ./ cources */
+    /* contact */
+
+    /* ./ contact */
+
 }
 
 /*bootstrap medium*/ 
 @media screen and (max-width: 768px) {
-    
-    /* containers */
 
-    .container-fluid {
-        width: 100vw;
+    /* Home page */
+    .main-box p {
+        margin: 3% 0;
     }
+            /* Reveiws */
 
-    /* ./ containers */
+        #img-switch {
+            order: 2;
+        }
 
-    /* ./ contact */
+        #text-switch {
+            order: 1;
+        }
+
+        /* ./ Reveiws */
+    /* ./ Home page */
+    /* about */
+
+    /* ./ about */
+    /* cources */
+
+    /* ./ cources */
+    /* contact */
 
     .center-form {
         padding-top: 30px;
@@ -503,49 +549,59 @@ form input {
 
 /*bootstrap small*/ 
 @media screen and (max-width: 576px){
-    
-/* call out */
+    /* Home page */
 
-.callout-container {
-    align-items: center;
-    justify-content: center;
-}
+        /* call out */
 
-/* ./call out */
+        .callout-container {
+            align-items: center;
+            justify-content: center;
+        }
 
-/* Reveiws */
+        /* ./call out */
+        /* Reveiws */
 
-#img-switch {
-    order: 2;
-}
+        #img-switch {
+            order: 2;
+        }
 
-#text-switch {
-    order: 1;
-}
+        #text-switch {
+            order: 1;
+        }
 
-/* ./ Reveiws */
+        /* ./ Reveiws */
 
-/* Footer */
+    /* ./ Home page */
+    /* about */
 
-.footer {
-    flex-direction: column;
-}
+    /* ./ about */
+    /* cources */
 
-    .contact {
-        order: 2;
-        width: 100%;
+    /* ./ cources */
+    /* contact */
+
+    /* ./ contact */
+    /* Footer */
+
+    .footer {
+        flex-direction: column;
     }
 
-    .trust-tags {
-        order: 1;
-        width: 100%;
-    }
+        .contact {
+            order: 2;
+            width: 100%;
+        }
 
-    .social-networks {
-        order: 3;
-        width: 100%;
-    }
-/* ./ Footer */
+        .trust-tags {
+            order: 1;
+            width: 100%;
+        }
+
+        .social-networks {
+            order: 3;
+            width: 100%;
+        }
+    /* ./ Footer */
 
 }
 

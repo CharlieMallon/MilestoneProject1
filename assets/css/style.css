@@ -70,6 +70,10 @@ h3 {
     width: 80%;
 }
 
+.block-divider-light {
+    background-color: #ffffff;
+}
+
 /* ./ block dividers */
 /*img*/
 
@@ -161,6 +165,7 @@ nav li a:hover {
 
     .callout {
         position: relative;
+        color: #ffffff;
     }
 
 /* ./call out */

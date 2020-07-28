@@ -435,10 +435,10 @@ form input {
 
 
 
-/*media queries*/
+/* ----------- media queries ----------*/
 
-@media screen and (max-width: 1100px) {
-
+/*bootstrap extra large*/
+@media screen and (max-width: 1200px) {
     /* containers */
 
     .container-fluid {
@@ -472,10 +472,14 @@ form input {
 
 }
 
-/*tablet - md */
+/*bootstrap large*/ 
+@media screen and (max-width: 992px) {
 
-@media screen and (max-width: 786px) {
+}
 
+/*bootstrap medium*/ 
+@media screen and (max-width: 768px) {
+    
     /* containers */
 
     .container-fluid {
@@ -494,12 +498,12 @@ form input {
     }
 
     /* ./ contact */
+
 }
 
-/*mobile - sm */
-
-@media screen and (max-width: 576px) {
-   
+/*bootstrap small*/ 
+@media screen and (max-width: 576px){
+    
 /* call out */
 
 .callout-container {
@@ -542,30 +546,9 @@ form input {
         width: 100%;
     }
 /* ./ Footer */
-    
-}
-
-/*end media queries*/
-
-/*bootstrap extra large*/
-@media screen and (max-width: 1200px) {
 
 }
 
-/*bootstrap large*/ 
-@media screen and (max-width: 992px) {
-
-}
-
-/*bootstrap medium*/ 
-@media screen and (max-width: 768px) {
-
-}
-
-/*bootstrap small*/ 
-@media screen and (max-width: 576px){{
-
-}}
-
+/* --------- end media queries ----------*/
 
 

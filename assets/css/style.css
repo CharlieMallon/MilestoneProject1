@@ -264,7 +264,7 @@ nav li a:hover {
         }
 
         .price {
-            margin: 0px 5% 5% 5%;
+            margin: 0px 5%;
         }
 
     /* ./ price*/
@@ -436,6 +436,41 @@ form input {
 
 
 /*media queries*/
+
+@media screen and (max-width: 1100px) {
+
+    /* containers */
+
+    .container-fluid {
+        width: 100vw;
+    }
+
+    /* ./ containers */
+    /* Home page */
+
+    #hero {
+        border-radius: 0px;
+    }
+
+    /* ./ Home page */
+    /* about */
+
+    .work-together {
+        padding: 20px;
+    }
+
+    /* ./ about */
+    /* cources */
+
+    /* ./ cources */
+    /* contact */
+
+    .form {
+        padding-left: 6%;
+    }
+    /* ./ contact */
+
+}
 
 /*tablet - md */
 

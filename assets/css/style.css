@@ -204,7 +204,6 @@ h3 {
             align-items: center;
             justify-content: space-between;
             margin: 2%;
-            height: 70vh;
         }
 
         .course-words {
@@ -272,7 +271,6 @@ h3 {
     align-items: center;
     justify-content: space-between;
     margin: 2%;
-    height: 70vh;
 }
 
 .about-words {
@@ -493,7 +491,7 @@ form input {
     .main-box p {
         margin: 3% 0;
     }
-            /* Reveiws */
+        /* Reveiws */
 
         #img-switch {
             order: 2;
@@ -538,14 +536,6 @@ form input {
         /* ./call out */
         /* Reveiws */
 
-        #img-switch {
-            order: 2;
-        }
-
-        #text-switch {
-            order: 1;
-        }
-
         /* ./ Reveiws */
 
     /* ./ Home page */
@@ -553,7 +543,13 @@ form input {
 
     /* ./ about */
     /* cources */
+        #img-switch {
+            order: 2;
+        }
 
+        #text-switch {
+            order: 1;
+        }
     /* ./ cources */
     /* contact */
 

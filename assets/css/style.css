@@ -90,10 +90,6 @@ h3 {
     border-radius: 15px;
     border: 1px solid #888888;
     box-shadow: 3px 5px #888888;
-    max-width: 500px;
-}
-
-.contact-img {
     max-width: 400px;
 }
 
@@ -263,18 +259,17 @@ h3 {
 .background {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 2%;
+    margin: 20px 0px;
 }
 
 .about-words {
-    padding-right: 40px;
+    padding: 15px;
 }
 
 .slogan {
     display: flex;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 20px 0px;
 }
 
     /* work-together */

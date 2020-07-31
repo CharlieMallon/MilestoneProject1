@@ -305,6 +305,10 @@ h3 {
         margin-bottom: 20px;
     }
 
+    .center-about {
+        margin: 20px 0px;
+    }
+
     /* work-together*/
 
 /* ./ About Me */
@@ -500,7 +504,7 @@ form input {
         /* ./ Reveiws */
     /* ./ Home page */
     /* about */
-
+    
     /* ./ about */
     /* cources */
 
@@ -543,7 +547,13 @@ form input {
 
     /* ./ Home page */
     /* about */
-
+        .left-about
+         {
+            text-align: center;
+        }
+        .right-about-heading {
+            text-align: center;
+        }
     /* ./ about */
     /* cources */
         #img-switch-sm {

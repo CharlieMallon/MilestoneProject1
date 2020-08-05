@@ -17,5 +17,17 @@
       "**/.theia": true,
    },
 "emmet.extensionsPath": ".theia",
-"editor.autoSave": "on"
+"editor.autoSave": "on",
+"cSpell.words": [
+    "eyton",
+    "gitpod",
+    "linkedin",
+    "rebecca"
+],
+"cSpell.ignoreWords": [
+    "michell",
+    "projectsummary",
+    "stonhill",
+    "tish"
+]
 }

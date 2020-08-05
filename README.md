@@ -1,10 +1,10 @@
-# Rebecca Moris-Eyton
+# Rebecca Morris-Eyton
 
 [View the live website here](https://charliemallon.github.io/MilestoneProject1/)
 
 This website aims to increase Rebecca's clients and therefore increase revenue.  I will allow existing and potential clients to find out more about Rebecca and to Book time with her.
 
-[Image of website on mutiple devices](http://ami.responsivedesign.is/?url=https://charliemallon.github.io/MilestoneProject1/)
+[Image of website on multiple devices](http://ami.responsivedesign.is/?url=https://charliemallon.github.io/MilestoneProject1/)
 
 ## User Experience (UX)
 
@@ -88,6 +88,6 @@ It could do better
 1. [GitHub:](https://github.com/)
     - This project uses GitHub to save code once it is pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - This project uses Balsamic Wireframes to show the inteded design outcome for this site. Click here to view the [wireframes](https://).
+    - This project uses Balsamic Wireframes to show the intended design outcome for this site. Click here to view the [wireframes](https://).
 1. [AmIResponsive:](http://ami.responsivedesign.is/)
     - This project uses Am I Responsive for a layout of how the project will look across various devices.

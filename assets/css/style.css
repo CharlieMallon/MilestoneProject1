@@ -70,7 +70,7 @@ h3 {
     width: 300px;
 }
 
-.block-divider-reponsive {
+.block-divider-responsive {
     width: 80%;
 }
 
@@ -178,9 +178,9 @@ h3 {
 
     /* ./ Main content */
 
-    /* Reveiws */
+    /* Reviews */
 
-    .reveiws-header {
+    .reviews-header {
         margin-top:20px;
     }
 
@@ -192,14 +192,14 @@ h3 {
         align-self: center;
     }
 
-    /* ./ Reveiws */
+    /* ./ Reviews */
 
 /* ./ Home Page */
 /* courses */
 
     /*Course Title*/
 
-        .course-discription {
+        .course-description {
             display: flex;
             align-items: center;
             margin: 20px 0px;
@@ -216,7 +216,7 @@ h3 {
     /* ./ Course Title*/
     /* Course details */
     
-    .empthasis-box {
+    .emphasis-box {
         margin: 20px 0px;
         padding: 10px;
         border: 3px solid #003B6C;
@@ -442,9 +442,9 @@ form input {
     }
 
     /* ./ about */
-    /* cources */
+    /* courses */
 
-    /* ./ cources */
+    /* ./ courses */
     /* contact */
 
     /* ./ contact */
@@ -460,7 +460,7 @@ form input {
         min-height: 310px;
     }
 
-    .reveiws-container p {
+    .reviews-container p {
         font-size: 18px;
     }
 
@@ -468,9 +468,9 @@ form input {
     /* about */
 
     /* ./ about */
-    /* cources */
+    /* courses */
 
-    /* ./ cources */
+    /* ./ courses */
     /* contact */
 
     /* ./ contact */
@@ -491,7 +491,7 @@ form input {
     .main-box p {
         margin: 3% 0;
     }
-        /* Reveiws */
+        /* Reviews */
 
         #img-switch {
             order: 2;
@@ -501,14 +501,14 @@ form input {
             order: 1;
         }
 
-        /* ./ Reveiws */
+        /* ./ Reviews */
     /* ./ Home page */
     /* about */
     
     /* ./ about */
-    /* cources */
+    /* courses */
 
-    /* ./ cources */
+    /* ./ courses */
     /* contact */
 
     .center-form {
@@ -541,9 +541,9 @@ form input {
         }
 
         /* ./call out */
-        /* Reveiws */
+        /* Reviews */
 
-        /* ./ Reveiws */
+        /* ./ Reviews */
 
     /* ./ Home page */
     /* about */
@@ -555,7 +555,7 @@ form input {
             text-align: center;
         }
     /* ./ about */
-    /* cources */
+    /* courses */
         #img-switch-sm {
             order: 2;
         }
@@ -563,7 +563,7 @@ form input {
         #text-switch-sm {
             order: 1;
         }
-    /* ./ cources */
+    /* ./ courses */
     /* contact */
 
     /* ./ contact */

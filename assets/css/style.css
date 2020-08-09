@@ -532,7 +532,6 @@ form input {
     }
 
     /* ./ contact */
-
 }
 
 /*bootstrap small*/ 
@@ -589,6 +588,18 @@ form input {
         .contact {
             order: 2;
             width: 100%;
+        }
+
+
+        .contact-links li{
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-links i{
+            display: block;
+            align-items: center;
+            justify-content: center;
         }
 
         .trust-tags {

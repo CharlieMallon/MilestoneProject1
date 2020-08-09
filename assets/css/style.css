@@ -353,8 +353,6 @@ form input {
         margin-left: 30px;
     }
 
-    /*./ Footer - Contact */
-
     .contact-links i {
         font-size: 125%;
         letter-spacing: 10px;
@@ -372,6 +370,8 @@ form input {
         color: black;
         
     }
+    
+    /*./ Footer - Contact */
 
     /* Footer - Trust Tags */
 
@@ -532,6 +532,18 @@ form input {
     }
 
     /* ./ contact */
+    /* footer */
+    
+    .contact-links {
+        padding: 0px;
+    }
+
+    .contact-links li{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ./ footer */
 }
 
 /*bootstrap small*/ 
@@ -590,16 +602,12 @@ form input {
             width: 100%;
         }
 
-
-        .contact-links li{
-            align-items: center;
-            justify-content: center;
-        }
-
         .contact-links i{
             display: block;
             align-items: center;
             justify-content: center;
+            text-align: center;
+            letter-spacing: 0px;
         }
 
         .trust-tags {

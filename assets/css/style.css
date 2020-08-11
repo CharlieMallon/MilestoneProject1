@@ -1,135 +1,196 @@
 /* Fonts */
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Roboto', sans-serif;
-}
+    h1 h2 h3 h4 h5 h6 {
+        font-family: 'Roboto', sans-serif;
+    }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
 
-p {
-    margin: 0px
-}
+    p {
+        margin: 0px
+    }
 
-h2 {
-    margin-bottom: 20px;
-}
+    h2 {
+        margin-bottom: 20px;
+    }
 
-h3 {
-    margin-bottom: 10px;
-}
+    h3 {
+        margin-bottom: 10px;
+    }
 /* ./ Fonts */
 /* containers */
+    .container-fluid {
+        width: 80vw;
+    }
 
-.container-fluid {
-    width: 80vw;
-}
-
-.wide {
-    width: 100vw;
-}
-
+    .wide {
+        width: 100vw;
+    }
 /* ./ containers */
-
 /* Buttons */
+    .btn-blue {
+        background-color: #1193ff;
+        border-color: #1193ff;
+        color: white;
+        margin-top: 20px;
+    }
 
-.btn-blue {
-    background-color: #1193ff;
-    border-color: #1193ff;
-    color: white;
-    margin-top: 20px;
-}
+    .btn-yellow {
+        background-color: #FFC000;
+        border-color: #FFC000;
+        color: white;
+        margin-top: 20px;
+    }
 
-.btn-yellow {
-    background-color: #FFC000;
-    border-color: #FFC000;
-    color: white;
-    margin-top: 20px;
-}
+    .btn-orange {
+        background-color: #FF4C00;
+        border-color: #FF4C00;
+        color: white;
+        margin-top: 20px;
+    }
 
-.btn-orange {
-    background-color: #FF4C00;
-    border-color: #FF4C00;
-    color: white;
-    margin-top: 20px;
-}
-
-.btn-inline { 
-    margin: 0px;
-}
-
+    .btn-inline { 
+        margin: 0px;
+    }
 /* ./ Buttons */
-
 /* block dividers */
+    .block-divider {
+        background-color: #003B6C;
+    }
 
-.block-divider {
-    background-color: #003B6C;
-}
+    .block-divider-short {
+        width: 300px;
+    }
 
-.block-divider-short {
-    width: 300px;
-}
+    .block-divider-responsive {
+        width: 80%;
+    }
 
-.block-divider-responsive {
-    width: 80%;
-}
-
-.block-divider-light {
-    background-color: #ffffff;
-}
-
+    .block-divider-light {
+        background-color: #ffffff;
+    }
 /* ./ block dividers */
 /*img*/
-
-.img {
-    height: 70vh;
-    object-fit: cover;
-    overflow: hidden;
-    margin: 0%;
-    padding: 10px;
-    border-radius: 15px;
-    border: 1px solid #888888;
-    box-shadow: 3px 5px #888888;
-    max-width: 400px;
-}
-
+    .img {
+        height: 70vh;
+        object-fit: cover;
+        overflow: hidden;
+        margin: 0%;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid #888888;
+        box-shadow: 3px 5px #888888;
+        max-width: 400px;
+    }
 /* ./ img*/
 /*NavBar*/
-
-.bg-light  {
-    background-color: #fff !important;
-}
-
+    .bg-light  {
+        background-color: #fff !important;
+    }
 /* ./ NavBar */
+/* Header */
+        #logo {
+            width: 200px;
+            height: 46.75px;
+        }
+
+        nav li {
+        margin-right: 30px;
+        }
+
+        nav li a:hover {
+            border-bottom: 1px solid #003B6C;
+        }
+/* ./ Header */
+/* Footer */
+    /* All Footer */
+        .footer {
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    /* ./ All Footer */
+    /* Footer - Contact */
+        .addresses {
+            margin-left: 30px;
+        }
+
+        .contact-links i {
+            font-size: 125%;
+            letter-spacing: 10px;
+            padding: 5px;
+            color: #75B9E6;
+        }
+
+        .contact-links li {
+            list-style-type: none;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .contact-links li a {
+            color: black;
+            
+        }
+    /*./ Footer - Contact */
+    /* Footer - Trust Tags */
+        .tags {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0px;
+        }
+
+        .trust-tag-wide {
+            max-width: 128px;
+        }
+
+        .trust-tag-square {
+            max-width: 72px;
+            }
+
+        .tags li {
+            list-style-type: none;
+        }
+    /* ./ Footer - Trust Tags */
+    /* Footer - Social Networks */
+        .social-networks {
+            padding: 15px;
+        }
+
+        .social-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .social-links i {
+            font-size: 200%;
+            letter-spacing: 40px;
+            margin: 1%;
+            padding: 5%;
+            color: #75B9E6;
+        }
+
+        .social-links li {
+            list-style-type: none;
+        }
+    /* ./ Footer - Social Networks */
+/* footer */
 /* Home Page */
-    /* Header */
-
-    #logo {
-        width: 200px;
-        height: 46.75px;
-    }
-
-    nav li {
-    margin-right: 30px;
-    }
-
-    nav li a:hover {
-        border-bottom: 1px solid #003B6C;
-    }
-
-    /* ./ Header */
-
     /* call out */
-
-    .callout-container {
-        height: 80vh;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
-        position: relative;
-        padding-top: 5%;
-        padding-right: 5%;
-    }
+        .callout-container {
+            height: 80vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            position: relative;
+            padding-top: 5%;
+            padding-right: 5%;
+        }
 
         #hero {
             position: absolute;
@@ -149,56 +210,46 @@ h3 {
             position: relative;
             color: #ffffff;
         }
-
     /* ./call out */
-
     /* Main content */
+        .main-box {
+            min-height: 200px;
+            margin: 5%;
+            padding: 15px;
+            border: 3px solid #003B6C;
+            border-radius: 15px;
+            box-shadow: 3px 5px #888888;
+            }
 
-    .main-box {
-        min-height: 200px;
-        margin: 5%;
-        padding: 15px;
-        border: 3px solid #003B6C;
-        border-radius: 15px;
-        box-shadow: 3px 5px #888888;
+        .main-box i {
+                font-size: 200%;
+                color: #75B9E6;
+            }
+
+        .main-box p {
+            margin: 7% 0;
         }
 
-    .main-box i {
-            font-size: 200%;
-            color: #75B9E6;
+        .main-box .btn {
+            margin-bottom: 5%;
         }
-
-    .main-box p {
-        margin: 7% 0;
-    }
-
-    .main-box .btn {
-        margin-bottom: 5%;
-    }
-
     /* ./ Main content */
-
     /* Reviews */
+        .reviews-header {
+            margin-top:20px;
+        }
 
-    .reviews-header {
-        margin-top:20px;
-    }
+        .media {
+            margin: 2%;
+        }
 
-    .media {
-        margin: 2%;
-    }
-
-    .rnd-img {
-        align-self: center;
-    }
-
+        .rnd-img {
+            align-self: center;
+        }
     /* ./ Reviews */
-
 /* ./ Home Page */
 /* courses */
-
     /*Course Title*/
-
         .course-description {
             display: flex;
             align-items: center;
@@ -212,21 +263,17 @@ h3 {
         .course-words p {
             margin: 0px;
         }
-
     /* ./ Course Title*/
     /* Course details */
-    
-    .emphasis-box {
-        margin: 20px 0px;
-        padding: 10px;
-        border: 3px solid #003B6C;
-        border-radius: 15px;
-        box-shadow: 3px 5px #888888;
-    }
-
+        .emphasis-box {
+            margin: 20px 0px;
+            padding: 10px;
+            border: 3px solid #003B6C;
+            border-radius: 15px;
+            box-shadow: 3px 5px #888888;
+        }
     /* ./ Course Details*/
     /*Course Content*/
-
         .media-body p {
             margin: 8px 0px;
         }
@@ -235,10 +282,8 @@ h3 {
             letter-spacing: 15px;
             font-size: 200%;
         }
-
     /* ./ Course Content*/
     /*price*/
-
         #price-dis {
             margin-left: 5%;
         }
@@ -246,383 +291,244 @@ h3 {
         .price {
             margin: 0px 5%;
         }
-
     /* ./ price*/
-    /*Questions*/ 
-
-    /*./Questions*/
-
 /* ./ courses */
-
 /* About Me */
+    /* Background */
+        .background {
+            display: flex;
+            align-items: center;
+            margin: 20px 0px;
+        }
 
-.background {
-    display: flex;
-    align-items: center;
-    margin: 20px 0px;
-}
+        .about-words {
+            padding: 15px;
+        }
 
-.about-words {
-    padding: 15px;
-}
-
-.slogan {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0px;
-}
-
+        .slogan {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0px;
+        }
+    /* ./ Background */
     /* work-together */
-    .hr-about {
-        display: inline-flex;
-        border-top: 1px solid #888888;
-        width: 250px;
-        margin-top: 10px;
-        margin-bottom: 5px;
+        .hr-about {
+            display: inline-flex;
+            border-top: 1px solid #888888;
+            width: 250px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .left-about-heading {
+            margin-bottom: 20px;
+        }
+
+        .circle-container {
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            border-style: solid;
+            border-color: #888888;
+            border-width: 1px;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        .circle-img-bg {
+            height: 100%;
+        }
+
+        .right-about-heading {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .center-about {
+            margin: 20px 0px;
+        }
+    /* work-together*/
+/* ./ About Me */
+/* contact */
+    .contact-form {
+        margin-bottom: 30px;
     }
 
-    .left-about-heading {
+    .form {
+        align-self: center;
+    }
+
+    .contact-heading {
+        margin-top: 25px;
         margin-bottom: 20px;
     }
 
-    .circle-container {
-        width: 300px;
-        height: 300px;
-        padding: 10px;
-        border-style: solid;
-        border-color: #888888;
-        border-width: 1px;
-        border-radius: 50%;
+    .center-form {
+        padding-top: 10px;
         margin: 0 auto;
     }
 
-    .circle-img-bg {
-        height: 100%;
-    }
-
-    .right-about-heading {
-        text-align: right;
+    form input {
         margin-bottom: 20px;
     }
-
-    .center-about {
-        margin: 20px 0px;
-    }
-
-    /* work-together*/
-
-/* ./ About Me */
-
-/* contact */
-
-.contact-form {
-    margin-bottom: 30px;
-}
-
-.form {
-    align-self: center;
-}
-
-.contact-heading {
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-}
-
-form input {
-    margin-bottom: 20px;
-}
-
 /* ./ contact */
-
-/* Footer */
-
-.footer {
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-    /* Footer - Contact */
-    
-    .addresses {
-        margin-left: 30px;
-    }
-
-    .contact-links i {
-        font-size: 125%;
-        letter-spacing: 10px;
-        padding: 5px;
-        color: #75B9E6;
-    }
-
-    .contact-links li {
-        list-style-type: none;
-        display: flex;
-        align-items: baseline;
-    }
-
-    .contact-links li a {
-        color: black;
-        
-    }
-    
-    /*./ Footer - Contact */
-
-    /* Footer - Trust Tags */
-
-    .tags {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0px;
-    }
-
-    .trust-tag-wide {
-        max-width: 128px;
-    }
-
-    .trust-tag-square {
-        max-width: 72px;
-        }
-
-    .tags li {
-        list-style-type: none;
-    }
-
-    /* ./ Footer - Trust Tags */
-
-    /* Footer - Social Networks */
-
-    .social-networks {
-        padding: 15px;
-    }
-
-    .social-links{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .social-links i {
-        font-size: 200%;
-        letter-spacing: 40px;
-        margin: 1%;
-        padding: 5%;
-        color: #75B9E6;
-    }
-
-    .social-links li {
-        list-style-type: none;
-    }
-    /* ./ Footer - Social Networks */
-/* footer */
-
-
 
 /* ----------- media queries ----------*/
 
 /*bootstrap extra large*/
-@media screen and (max-width: 1200px) {
-    /* containers */
+    @media screen and (max-width: 1200px) {
+        /* containers */
+            .container-fluid {
+                width: 100vw;
+            }
 
-    .container-fluid {
-        width: 100vw;
+            .main-box {
+                min-height: 300px;
+            }
+        /* ./ containers */
+        /* Home page */
+            #hero {
+                border-radius: 0px;
+            }
+        /* ./ Home page */
+        /* about */
+            .work-together {
+                padding: 20px;
+            }
+        /* ./ about */
     }
-
-    .main-box {
-        min-height: 300px;
-    }
-
-    /* ./ containers */
-    /* Home page */
-
-    #hero {
-        border-radius: 0px;
-    }
-
-    /* ./ Home page */
-    /* about */
-
-    .work-together {
-        padding: 20px;
-    }
-
-    /* ./ about */
-    /* courses */
-
-    /* ./ courses */
-    /* contact */
-
-    /* ./ contact */
-
-}
-
+/*./ bootstrap extra large*/
 /*bootstrap large*/ 
-@media screen and (max-width: 992px) {
-
-    /* Home page */
-
-    .main-box {
-        min-height: 310px;
+    @media screen and (max-width: 992px) {
+        /* Home page */
+            /*Main content */
+                .main-box {
+                    min-height: 310px;
+                }
+            /* ./ Main content */
+            /* Reviews */
+                .reviews-container p {
+                    font-size: 18px;
+                }
+            /* ./ Reviews */
+        /* ./ Home page */
     }
-
-    .reviews-container p {
-        font-size: 18px;
-    }
-
-    /* ./ Home page */
-    /* about */
-
-    /* ./ about */
-    /* courses */
-
-    /* ./ courses */
-    /* contact */
-
-    /* ./ contact */
-
-}
-
+/*./ bootstrap large*/ 
 /*bootstrap medium*/ 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
+        /* imgs */
+            .img {
+                width: 100%;
+                height: 100%;
+            }
+        /* ./ img */
+        /* Home page */
+            /*Main content */
+                .main-box p {
+                    margin: 3% 0;
+                }
+            /* ./ Main content */
+            /* Reviews */
+                #img-switch {
+                    order: 2;
+                }
 
-    /* imgs */
-    .img {
-        width: 100%;
-        height: 100%;
+                #text-switch {
+                    order: 1;
+                }
+            /* ./ Reviews */
+        /* ./ Home page */
+        /* contact */
+            .center-form {
+                padding-top: 30px;
+                min-height: 240px;
+                margin: 0 auto;
+                max-width: 90%;
+            }
+        /*./ contact */
+        /* footer */
+            /*contact*/
+                .contact-links {
+                    padding: 0px;
+                }
+
+                .contact-links li{
+                    align-items: center;
+                    justify-content: center;
+                }
+            /*./ contact*/
+        /*./ footer */
     }
-    /* img */
-
-    /* Home page */
-    .main-box p {
-        margin: 3% 0;
-    }
-        /* Reviews */
-
-        #img-switch {
-            order: 2;
-        }
-
-        #text-switch {
-            order: 1;
-        }
-
-        /* ./ Reviews */
-    /* ./ Home page */
-    /* about */
-    
-    /* ./ about */
-    /* courses */
-
-    /* ./ courses */
-    /* contact */
-
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 90%;
-    }
-
-    /* ./ contact */
-    /* footer */
-    
-    .contact-links {
-        padding: 0px;
-    }
-
-    .contact-links li{
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* ./ footer */
-}
-
+/*./ bootstrap medium*/ 
 /*bootstrap small*/ 
-@media screen and (max-width: 576px){
+    @media screen and (max-width: 576px){
+        /* imgs */
+            .img {
+                height: 50vh;
+            }
+        /* ./img */
+        /* Home page */
+            /* call out */
+                .callout-container {
+                    align-items: center;
+                    justify-content: center;
+                }
+            /* ./call out */
+        /* ./ Home page */
+        /* about */
+            .left-about
+            {
+                text-align: center;
+            }
+            .right-about-heading {
+                text-align: center;
+            }
+        /* ./ about */
+        /* courses */
+            /* Work Together */
+            #img-switch-sm {
+                order: 2;
+            }
 
-    /* imgs */
-    .img {
-        height: 50vh;
+            #text-switch-sm {
+                order: 1;
+            }
+            /* ./Work Together */
+        /* ./ courses */
+        /* Footer */
+            /* All Footer */
+                .footer {
+                    flex-direction: column;
+                }
+            /* ./ All Footer */
+            /* Footer - Contact */
+                .contact {
+                    order: 2;
+                    width: 100%;
+                }
+
+                .contact-links i{
+                    display: block;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    letter-spacing: 0px;
+                }
+            /* ./ Footer - Contact */
+            /* Footer - Trust Tags */
+                .trust-tags {
+                    order: 1;
+                    width: 100%;
+                }
+            /* ./ Footer - Trust Tags */
+            /* Footer - Social Networks */
+                .social-networks {
+                    order: 3;
+                    width: 100%;
+                }
+            /* ./ Footer - Social Networks */
+        /* ./ Footer */
     }
-    /* img */
+/*./ bootstrap small*/
 
-    /* Home page */
-
-        /* call out */
-
-        .callout-container {
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* ./call out */
-        /* Reviews */
-
-        /* ./ Reviews */
-
-    /* ./ Home page */
-    /* about */
-        .left-about
-         {
-            text-align: center;
-        }
-        .right-about-heading {
-            text-align: center;
-        }
-    /* ./ about */
-    /* courses */
-        #img-switch-sm {
-            order: 2;
-        }
-
-        #text-switch-sm {
-            order: 1;
-        }
-    /* ./ courses */
-    /* contact */
-
-    /* ./ contact */
-    /* Footer */
-
-    .footer {
-        flex-direction: column;
-    }
-
-        .contact {
-            order: 2;
-            width: 100%;
-        }
-
-        .contact-links i{
-            display: block;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            letter-spacing: 0px;
-        }
-
-        .trust-tags {
-            order: 1;
-            width: 100%;
-        }
-
-        .social-networks {
-            order: 3;
-            width: 100%;
-        }
-    /* ./ Footer */
-
-}
-
-/* --------- end media queries ----------*/
-
-
+/* ---------./ media queries ----------*/

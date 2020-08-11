@@ -4,7 +4,7 @@
 
 This website aims to increase Rebecca's clients and therefore increase revenue.  I will allow existing and potential clients to find out more about Rebecca and to Book time with her.
 
-<h2 align="center"><img src="..assets/img/amiresponsiveimg.png"></h2>
+<h2 align="center"><img src="assets/img/amiresponsiveimg.png"></h2>
 
 ## User Experience (UX)
 

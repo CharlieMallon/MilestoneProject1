@@ -83,6 +83,10 @@
         box-shadow: 3px 5px #888888;
         max-width: 400px;
     }
+
+    .smallnewimg {
+        height: 30px;
+    }
 /* ./ img*/
 /*NavBar*/
     .bg-light  {

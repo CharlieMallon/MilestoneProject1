@@ -355,7 +355,12 @@
         .center-about {
             margin: 20px 0px;
         }
-    /* work-together*/
+    /* ./ work-together*/
+    /* More Info */
+        .more-info {
+            justify-content: space-around;
+        }
+    /* ./ More Info */
 /* ./ About Me */
 /* contact */
     .contact-form {

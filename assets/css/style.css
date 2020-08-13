@@ -296,15 +296,21 @@
             font-size: 200%;
         }
     /* ./ Course Content*/
-    /*price*/
-        #price-dis {
-            margin-left: 5%;
-        }
+    /* Course Info */
+    .course-info {
+        align-items: center;
+        justify-items: center;
+    }
+        /*price*/
+            #price-dis {
+                margin-left: 5%;
+            }
 
-        .price {
-            margin: 0px 5%;
-        }
-    /* ./ price*/
+            .price {
+                margin: 0px 5%;
+            }
+        /* ./ price*/
+    /* Course Info */
 /* ./ courses */
 /* About Me */
     /* Background */

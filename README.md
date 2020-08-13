@@ -122,11 +122,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_uri)
     -   Error -  An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images. (for three imgs)
         -   Fixed - reviewer images given alt tag.
-    -   Warning - Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
-        -   
-    -   Warning - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
-        -   
-
+    -   Warning -  Conciser using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools)
+        -   Not corrected - 
+    -   Warning -  Section lacks heading. Conciser using h2-h6 elements to add identifying heading to all sections.
+        -   Not corrected - 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     -   No Errors shown
 
@@ -182,10 +181,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-    No current known bugs.
-
--   Short description.
-    -   Result of bug
+-   Below 340px white space appears on the right hand side of all pages.
+    -   This is due to the trust tags sizing.
+    -   This will not be fixed as the smallest standard screen size is 360px.
 
 ## Deployment
 

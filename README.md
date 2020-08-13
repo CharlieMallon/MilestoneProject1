@@ -79,8 +79,15 @@ This website aims to increase Rebecca's clients and therefore increase�
 
 ## Features
 
--   The site is designed to be responsive across all device sizes and screens.
--   Interactive elements
+-   ### Current Features
+
+    -   The site is designed to be responsive across all device sizes and screens.
+    -   Interactive elements
+
+-   ### Future Features
+
+    -   Blog for rebecca to share thoughts and encouragement.
+    -   Message Board for customer interaction.
 
 ## Technologies Used
 
@@ -106,40 +113,65 @@ This website aims to increase Rebecca's clients and therefore increase�
     7. [GitHub:](https://github.com/)
         -   GitHub is used to store the projects code after being pushed from Git.
     8. [Balsamiq:](https://balsamiq.com/)
-        -   Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+        -   Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) - [Results]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_uri)
+    -   Error -  An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images. (for three imgs)
+        -   Fixed - reviewer images given alt tag.
+    -   Warning - Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools).
+        -   
+    -   Warning - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+        -   
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    -   No Errors shown
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
     1. I want to find out more about Rebecca so that I can make an informed decision.
-        1. Where this information is.
-        2. What happens if they click something.
-    2. I want to find out costings so that I work out if I can afford this service.  
+        1.  From the landing page the about section is clear, the description is stand alone statement but invites you to read more.
+        2.  When you click the find out more it takes you to about page, where there is more information and background on Rebecca.
+
+    2. I want to find out costings so that I work out if I can afford this service.
+        1.  The information is on the courses page, it is simple and clear.
+
     3. I want to find out more about the service provided so that I can make an informed decision.  
-    4. I want to book a session with Rebecca so that I can start using her services.  
+        1.  The information is on the courses page, it is simple and clear.
+
+    4. I want to book a session with Rebecca so that I can start using her services.
+        1.  The landing page invites you to book a 'success session'.
+        2.  When you click today it takes you to [Calendly](https://calendly.com/) so you can book a session.
 
 -   #### Returning Visitor Goals
 
     1. I want to find out about any new courses or information 
+        1.  There is a 'new' star where there is new information. 
 
 -   #### Frequent User Goals
 
-    1. I want to find out about current offers so that I can get free stuff.  
+    1.  I want to find out about current offers so that I can get free stuff.
+        1.  There is a 'new' star where there is new information.
 
 -   #### Site Owner Goals
 
-    1. I want to show people I am credible so that they trust me.  
-    2. I want to give clear information on my services so that my customer knows what they are getting.  
-    3. I want to reach out to my customers so that they feel connected.  
-    4. I want to share my thoughts and insights so that people continue to come to the site.  
+    1.  I want to show people I am credible so that they trust me.
+        1.  The trust tags show that Rebecca is trust worthy.
+
+    2.  I want to give clear information on my services so that my customer knows what they are getting.  
+        1.  The course page gives all the key points of information, with clear pricing.
+
+    3.  I want to reach out to my customers so that they feel connected.  
+        1.  My about page gives more information about me.
+        2.  This will be through Message Board and Blog which has not yet been developed.
+
+    4.  I want to share my thoughts and insights so that people continue to come to the site.  
+        1.  This will be through a blog which has not yet been developed.
 
 ### Further Testing
 
@@ -206,13 +238,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   TThe full-screen hero image code came from this [lesson](Insert lesson) - I moved the image out of the background for ease of changing it in future.
+-   The full-screen hero image code came from the [Beyond Bootstrap lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) & [Components lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65) - I moved the image out of the background for ease of changing it in future.
 
--   The Review section  code came from this [lesson](Insert lesson) - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
+-   The Review section code came from the [Beyond Bootstrap lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) & [Components lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65) - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
 
--   The why work with me (on the about page) code came from this [lesson](Insert lesson) - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
+-   The why work with me (on the about page) code came from the [htmL/css project - Love Running lesson](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/1a5b9b552d2a499fad5d2a9dd2b57b15/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%401a5b9b552d2a499fad5d2a9dd2b57b15) - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
 
--   The contact form was modified from the [lesson](Insert lesson)
+-   The contact form was modified from the [Putting It All Together | Mini Project with Bootstrap 4 lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40715392be2ba942abb1b6f9eaf566aed6)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 

@@ -364,6 +364,7 @@
     /* More Info */
         .more-info {
             justify-content: space-around;
+            align-items: center;
         }
     /* ./ More Info */
 /* ./ About Me */

@@ -1,6 +1,6 @@
 # Rebecca Morris-Eyton
 
-[View the live website here](https://charliemallon.github.io/MilestoneProject1/)
+<a href="https://charliemallon.github.io/MilestoneProject1/" target="_blank">View the live website here</a>
 
 This website aims to increase Rebecca's clients and therefore increase revenue.  I will allow existing and potential clients to find out more about Rebecca and to Book time with her.
 
@@ -42,28 +42,28 @@ This website aims to increase Rebecca's clients and therefore increase�
 
 -   ### Wireframe
 
-    -   Initial Wireframe Designs - [View](..assets/wireframes/wireframe_ideas.pdf)
+    -   Initial Wireframe Designs - <a href="assets/wireframes/wireframe_ideas.pdf" target="_blank">View</a>
 
-    -   Agreed Wireframe Designs - [View](..assets/wireframes/wireframe_final.pdf)
+    -   Agreed Wireframe Designs - <a href="assets/wireframes/wireframe_final.pdf" target="_blank">View</a>
     
 
 ### Competitor Reviews
 
- -  [**Tish Hawkins**](https://www.tishhawken.com/)
+ -  <a href="https://www.tishhawken.com/" target="_blank">**Tish Hawkins**</a>
 
 |    Pros        |    Cons             |
 | -------------  |---------------------|
 | Simple design  | Very Wordy          |
 | Consistent     | To much Content     |
-| Good branding  | not very up to date |
+| Good branding  | Not up to date      |
 
-    -   Its missing 
-        -  A Hook, something that makes you want to stay.
+-   Its missing 
+    -  A Hook, something that makes you want to stay.
 
-    -   It could do better 
-        -   Responsive design. It looks more cluttered The smaller the screen.
+-   It could do better 
+    -   Responsive design. It looks more cluttered The smaller the screen.
 
--   [**Michell Stonhill**](https://www.michellestonhill.com/) 
+-   <a href="https://www.michellestonhill.com/" target="_blank">**Michell Stonhill**</a>
 
 |    Pros                       |    Cons               |
 | ----------------------------  |-----------------------|
@@ -71,11 +71,11 @@ This website aims to increase Rebecca's clients and therefore increase�
 | Easily digestible information | A lot of information  |
 | Lots of clickable links       |                       |
 
-    -   Its missing 
-        - Updates - there is no 'new' content
+-   Its missing 
+    - Updates - there is no 'new' content
 
-    -   It could do better 
-        - Doesn't work well on the phone, there is too much content.
+-   It could do better 
+   - Doesn't work well on the phone, there is too much content.
 
 ## Features
 
@@ -93,44 +93,44 @@ This website aims to increase Rebecca's clients and therefore increase�
 
 -   ### Languages Used
 
-    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    -   <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a>
+    -   <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS3</a>
 
 -   ### Frameworks, Libraries & Programs Used
 
-    1. [AmIResponsive:](http://ami.responsivedesign.is/)
+    1. <a href="http://ami.responsivedesign.is/" target="_blank">AmIResponsive:</a>
         -   This project uses Am I Responsive for a layout of how the project will look across various devices.
-    2. [Balsamiq:](https://balsamiq.com/)
+    2. <a href="https://balsamiq.com/" target="_blank">Balsamiq:</a>
         -   Balsamiq was used to create the wireframes during the design process.
-    3. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    3. <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap 4.4.1:</a>[]()
         -   Bootstrap was used to assist with the responsiveness and styling of the website.
-    4. [Coolors](https://coolors.co/)
+    4. <a href="https://coolors.co/" target="_blank">Coolors:</a>
         -   Coolors was used to assit with colour picking.
-    5. [Font Awesome:](https://fontawesome.com/)
+    5. <a href="https://fontawesome.com/" target="_blank">Font Awesome:</a>
         -   Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-    6. [Git](https://git-scm.com/)
+    6. <a href="https://git-scm.com/" target="_blank">Git:</a>
         -   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-    7. [GitHub:](https://github.com/)
+    7. <a href="https://github.com/" target="_blank">GitHub:</a>
         -   GitHub is used to store the projects code after being pushed from Git.
-    8. [Google Fonts:](https://fonts.google.com/)
+    8. <a href="https://fonts.google.com/" target="_blank">Google Fonts:</a>
         -   Google fonts were used to import the 'Open Sans' and 'Roboto' fonts into the style.css file which is used on all pages throughout the project.
-    9. [jQuery:](https://jquery.com/)
+    9. <a href="https://jquery.com/" target="_blank">jQuery:</a>
        -   jQuery came with Bootstrap to make the navbar responsive.
-    10. [Paletton](https://paletton.com/)
+    10. <a href="https://paletton.com/" target="_blank">Paletton:</a>
         -   Paletton was used to assist with colour picking.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_uri)
+-   <a href="https://validator.w3.org/#validate_by_uri" target="_blank">W3C Markup Validator</a>
     -   Error -  An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images. (for three imgs)
         -   Fixed - reviewer images given alt tag.
     -   Warning -  Conciser using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools)
         -   Not corrected - The h1 is the top level heading and is only used once.  The warning is due to the h1 being wrapped in div's to allow it to 'float' on top of the Hero image.
     -   Warning -  Section lacks heading. Conciser using h2-h6 elements to add identifying heading to all sections.
         -   Not corrected - The section heading is a h1.  The warning is due to the h1 being wrapped in div's to allow it to 'float' on top of the Hero image.
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">W3C CSS Validator</a>
     -   No Errors shown
 
 ### Testing User Stories from User Experience (UX) Section
@@ -149,7 +149,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     4. I want to book a session with Rebecca so that I can start using her services.
         -  The landing page invites you to book a 'success session'.
-        -  When you click today it takes you to [Calendly](https://calendly.com/) so you can book a session.
+        -  When you click today it takes you to <a href="https://calendly.com/" target="_blank">Calendly</a> so you can book a session.
 
 -   #### Returning Visitor Goals
 
@@ -188,32 +188,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Below 340px white space appears on the right hand side of all pages.
     -   This is due to the trust tag's sizing.
-    -   The smallest standard screen size is [360px](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/), therefore it is not appropriate to correct.
+    -   The smallest standard screen size is <a href="https://mediag.com/blog/popular-screen-resolutions-designing-for-all/" target="_blank">360px</a>, therefore it is not appropriate to correct.
 
 ## Deployment
 
 ### GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CharlieMallon/MilestoneProject1)
+1. Log in to GitHub and locate the <a href="https://github.com/CharlieMallon/MilestoneProject1" target="_blank">GitHub Repository</a>
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+    - Alternatively Click <a href="https://raw.githubusercontent.com/" target="_blank">Here</a> for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site <a href="https://github.com" target="_blank">link</a> in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CharlieMallon/MilestoneProject1)
+1. Log in to GitHub and locate the <a href="https://github.com/CharlieMallon/MilestoneProject1" target="_blank">GitHub Repository</a>
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CharlieMallon/MilestoneProject1)
+1. Log in to GitHub and locate the <a href="https://github.com/CharlieMallon/MilestoneProject1" target="_blank">GitHub Repository</a>
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -235,32 +235,32 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Click <a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop" target="_blank">Here</a> to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
 ### Code
 
--   The full-screen hero image code came from the [Beyond Bootstrap lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) & [Components lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65) - I moved the image out of css for ease of changing it in future.
+-   The full-screen hero image code came from the <a href="https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e" target="_blank">Beyond Bootstrap lesson</a> & <a href="https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65" target="_blank">Components lesson</a> - I moved the image out of css for ease of changing it in future.
 
--   The Review section code came from the [Beyond Bootstrap lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e) & [Components lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65) - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
+-   The Review section code came from the <a href="https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e" target="_blank">Beyond Bootstrap lesson</a>) & <a href="https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%407c0e25d1061e47cdae9c492d623bfc65" target="_blank">Components lesson</a> - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
 
--   The why work with me (on the about page) code came from the [htmL/css project - Love Running lesson](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/1a5b9b552d2a499fad5d2a9dd2b57b15/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%401a5b9b552d2a499fad5d2a9dd2b57b15) - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
+-   The why work with me (on the about page) code came from the <a href="https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/1a5b9b552d2a499fad5d2a9dd2b57b15/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%401a5b9b552d2a499fad5d2a9dd2b57b15" target="_blank">htmL/css project - Love Running lesson</a> - I modified it so that it worked with the bootstrap/FlexBox instead of 'float'
 
--   The contact form was modified from the [Putting It All Together | Mini Project with Bootstrap 4 lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40715392be2ba942abb1b6f9eaf566aed6)
+-   The contact form was modified from the <a href="https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40715392be2ba942abb1b6f9eaf566aed6" target="_blank">Putting It All Together | Mini Project with Bootstrap 4 lesson</a>
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap4</a>: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 ### Content
 
 -   All content was written by the developer and Rebecca (who the site has been designed for).
 
--   ReadMe content based on [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME)
+-   ReadMe content based on <a href="https://github.com/Code-Institute-Solutions/SampleREADME" target="_blank">Sample README</a>
 
 ### Media
 
--   All large Images were taken by [Gillian Devine](https://www.gilliandevinebrandphotography.com/?fbclid=IwAR0Hw6hfMOdDDLPhoXJbFPF_EfyCBSzglwtb6b10fZxGkI6QCN5Cb1HT59Y) and used with permission of the owner Rebecca Morris-Eyton.
--   Images used in the review section are taken from the [Beyond Bootstrap lesson](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e).
+-   All large Images were taken by <a href="https://www.gilliandevinebrandphotography.com/?fbclid=IwAR0Hw6hfMOdDDLPhoXJbFPF_EfyCBSzglwtb6b10fZxGkI6QCN5Cb1HT59Y" target="_blank">Gillian Devine</a> and used with permission of the owner Rebecca Morris-Eyton.
+-   Images used in the review section are taken from the <a href="https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%404b3b1b062b01424997c8fd052e177b8e" target="_blank">Beyond Bootstrap lesson</a>.
 
 ### Acknowledgements
 

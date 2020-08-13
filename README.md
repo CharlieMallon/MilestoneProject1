@@ -100,20 +100,24 @@ This website aims to increase Rebecca's clients and therefore increase�
 
     1. [AmIResponsive:](http://ami.responsivedesign.is/)
         -   This project uses Am I Responsive for a layout of how the project will look across various devices.
-    2. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    2. [Balsamiq:](https://balsamiq.com/)
+        -   Balsamiq was used to create the wireframes during the design process.
+    3. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
         -   Bootstrap was used to assist with the responsiveness and styling of the website.
-    3. [Google Fonts:](https://fonts.google.com/)
-        -   Google fonts were used to import the 'Open Sans' and 'Roboto' fonts into the style.css file which is used on all pages throughout the project.
-    4. [Font Awesome:](https://fontawesome.com/)
+    4. [Coolors](https://coolors.co/)
+        -   Coolors was used to assit with colour picking.
+    5. [Font Awesome:](https://fontawesome.com/)
         -   Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-    5. [jQuery:](https://jquery.com/)
-       -   jQuery came with Bootstrap to make the navbar responsive.
     6. [Git](https://git-scm.com/)
         -   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
     7. [GitHub:](https://github.com/)
         -   GitHub is used to store the projects code after being pushed from Git.
-    8. [Balsamiq:](https://balsamiq.com/)
-        -   Balsamiq was used to create the wireframes during the design process.
+    8. [Google Fonts:](https://fonts.google.com/)
+        -   Google fonts were used to import the 'Open Sans' and 'Roboto' fonts into the style.css file which is used on all pages throughout the project.
+    9. [jQuery:](https://jquery.com/)
+       -   jQuery came with Bootstrap to make the navbar responsive.
+    10. [Paletton](https://paletton.com/)
+        -   Paletton was used to assist with colour picking.
 
 ## Testing
 

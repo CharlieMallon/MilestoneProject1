@@ -160,6 +160,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1.  I want to find out about current offers so that I can get free stuff.
         -  There is a 'new' star where there is new information.
+        -  The offer bar across the top of all pages shows the current offers.
 
 -   #### Site Owner Goals
 

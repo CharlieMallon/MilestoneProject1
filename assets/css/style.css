@@ -103,6 +103,19 @@
         background-color: #fff !important;
     }
 /* ./ NavBar */
+/*OFFER*/
+    .offer {
+        background-color: #FFC000;
+        text-align: center;
+        align-content: center; 
+        word-spacing: 3px;
+        height: 35px;
+    }
+
+    .offer p {
+        padding: 5px;
+    }
+/* ./ OFFER*/
 /* Header */
         #logo {
             width: 200px;

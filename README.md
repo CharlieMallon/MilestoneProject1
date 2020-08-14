@@ -36,9 +36,11 @@ This website aims to increase Rebecca's clients and therefore increase�
     -   #### Colour Scheme
         -   The two main colours are blue and white, these were chosen as they tie into the company logo.  Yellow has been used for the alerts due its contrasting nature.
     -   #### Typography
-        -   The Open Sans and Roboto are the two main fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Open Sans is a clear font and is both attractive and appropriate.
+        -   The Open Sans and Roboto are the two main fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
+        -   I chose these fonts because clear and simple fonts are deemed more trustworthy by the reader [view](https://www.snapagency.com/persuasive-typography-what-font-trustworthy/).
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The images have been used to break up the page and give the site a clean look.
 
 -   ### Wireframe
 

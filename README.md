@@ -44,9 +44,9 @@ This website aims to increase Rebecca's clients and therefore increase�
 
 -   ### Wireframe
 
-    -   Initial Wireframe Designs - [View](assets/wireframes/wireframe_ideas.pdf)
+    -   Initial Wireframe Designs - [View](assets/wireframes/wireframeideas.pdf)
 
-    -   Agreed Wireframe Designs - [View](assets/wireframes/wireframe_final.pdf)
+    -   Agreed Wireframe Designs - [View](assets/wireframes/wireframefinal.pdf)
     
 
 ### Competitor Reviews

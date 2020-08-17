@@ -486,18 +486,6 @@
                 max-width: 90%;
             }
         /*./ contact */
-        /* footer */
-            /*contact*/
-                .contact-links {
-                    padding: 0px;
-                }
-
-                .contact-links li{
-                    align-items: center;
-                    justify-content: center;
-                }
-            /*./ contact*/
-        /*./ footer */
     }
 /*./ bootstrap medium*/ 
 /*bootstrap small*/ 

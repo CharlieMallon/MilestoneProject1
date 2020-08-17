@@ -129,9 +129,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   Error -  An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images. (for three imgs)
         -   Fixed - reviewer images given alt tag.
     -   Warning -  Conciser using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools)
-        -   Not corrected - The h1 is the top level heading and is only used once.  The warning is due to the h1 being wrapped in div's to allow it to 'float' on top of the Hero image.
+        -   Reason (Not corrected) - The h1 is the top level heading and is only used once.  The warning is due to the h1 being wrapped in div's to allow it to 'float' on top of the Hero image.
     -   Warning -  Section lacks heading. Conciser using h2-h6 elements to add identifying heading to all sections.
-        -   Not corrected - The section heading is a h1.  The warning is due to the h1 being wrapped in div's to allow it to 'float' on top of the Hero image.
+        -   Reason (Not corrected) - The section heading is a h1.  The warning is due to the h1 being wrapped in div's to allow it to 'float' on top of the Hero image.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     -   No Errors shown
 
